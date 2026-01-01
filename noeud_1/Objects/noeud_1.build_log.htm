@@ -1,0 +1,159 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ÂµVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hhjj ddd, jjj, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.41.0.0
+Toolchain Path:  C:\Users\Eya Arfaoui\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Eya Arfaoui\Desktop\noeud_1\noeud_1.uvprojx
+Project File Date:  11/10/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\Eya Arfaoui\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(2): error: 'stm32f4xx_can.h' file not found
+    2 | #include "stm32f4xx_can.h"
+      |          ^~~~~~~~~~~~~~~~~
+1 error generated.
+compiling main.c...
+can/tm32f4xx_gpio.c(187): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  187 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+can/tm32f4xx_gpio.c(260): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  260 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+can/tm32f4xx_gpio.c(304): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  304 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+can/tm32f4xx_gpio.c(326): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  326 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+can/tm32f4xx_gpio.c(343): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  343 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+can/tm32f4xx_gpio.c(365): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  365 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+can/tm32f4xx_gpio.c(416): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  416 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+can/tm32f4xx_gpio.c(430): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  430 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+can/tm32f4xx_gpio.c(506): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  506 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+9 errors generated.
+compiling tm32f4xx_gpio.c...
+can/stm32f4xx_rcc.c(240): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  240 |   assert_param(IS_RCC_HSE(RCC_HSE));
+      |   ^
+can/stm32f4xx_rcc.c(271): error: use of undeclared identifier 'HSE_STARTUP_TIMEOUT'
+  271 |   } while((startupcounter != HSE_STARTUP_TIMEOUT) && (hsestatus == RESET));
+      |                              ^
+can/stm32f4xx_rcc.c(296): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  296 |   assert_param(IS_RCC_CALIBRATION_VALUE(HSICalibrationValue));
+      |   ^
+can/stm32f4xx_rcc.c(331): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  331 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+can/stm32f4xx_rcc.c(356): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  356 |   assert_param(IS_RCC_LSE(RCC_LSE));
+      |   ^
+can/stm32f4xx_rcc.c(396): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  396 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+can/stm32f4xx_rcc.c(439): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  439 |   assert_param(IS_RCC_PLL_SOURCE(RCC_PLLSource));
+      |   ^
+can/stm32f4xx_rcc.c(462): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  462 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+can/stm32f4xx_rcc.c(488): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  488 |   assert_param(IS_RCC_PLLI2SN_VALUE(PLLI2SN));
+      |   ^
+can/stm32f4xx_rcc.c(503): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  503 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+can/stm32f4xx_rcc.c(521): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  521 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+can/stm32f4xx_rcc.c(548): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  548 |   assert_param(IS_RCC_MCO1SOURCE(RCC_MCO1Source));
+      |   ^
+can/stm32f4xx_rcc.c(586): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  586 |   assert_param(IS_RCC_MCO2SOURCE(RCC_MCO2Source));
+      |   ^
+can/stm32f4xx_rcc.c(692): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  692 |   assert_param(IS_RCC_SYSCLK_SOURCE(RCC_SYSCLKSource));
+      |   ^
+can/stm32f4xx_rcc.c(745): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  745 |   assert_param(IS_RCC_HCLK(RCC_SYSCLK));
+      |   ^
+can/stm32f4xx_rcc.c(777): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  777 |   assert_param(IS_RCC_PCLK(RCC_HCLK));
+      |   ^
+can/stm32f4xx_rcc.c(808): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  808 |   assert_param(IS_RCC_PCLK(RCC_HCLK));
+      |   ^
+can/stm32f4xx_rcc.c(865): error: use of undeclared identifier 'HSI_VALUE'
+  865 |       RCC_Clocks->SYSCLK_Frequency = HSI_VALUE;
+      |                                      ^
+can/stm32f4xx_rcc.c(868): error: use of undeclared identifier 'HSE_VALUE'
+  868 |       RCC_Clocks->SYSCLK_Frequency = HSE_VALUE;
+      |                                      ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling stm32f4xx_rcc.c...
+".\Objects\noeud_1.axf" - 29 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil::STM32F4xx_DFP@2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/Eya Arfaoui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/Eya Arfaoui/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Keil::Device:Startup@2.6.3
+      Source file:   MDK/Device/Source/ARM/STM32F40xxx_41xxx_OPT.s
+      Include file:  Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f407xx.s
+      Source file:   MDK/Device/Source/ARM/STM32F4xx_OTP.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
